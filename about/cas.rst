@@ -4,7 +4,7 @@ About the CIS Controls Assessment Specification
 Purpose
 -------
 
-The CIS Controls provide essential best practices that organizations can implement to improve their cybersecurity posture.  In addition to implementing the CIS Controls, it is also important that organizations measure their implementations to ensure that Safeguards are in place and working properly.  The purpose of the CIS Controls Assessent Specification (CAS) is to provide a common understanding of what should be measured in order to verify that CIS Safeguards are properly implemented. The hope is that those developing related tools will then build these measures into their tools so that the CIS Controls are measured in a uniform way.
+The CIS Controls provide essential best practices that organizations can implement to improve their cybersecurity posture.  In addition to implementing the CIS Controls, it is also important that organizations measure their implementations to ensure that Safeguards are in place and working properly.  The purpose of the CIS Controls Assessment Specification (CAS) is to provide a common understanding of what should be measured in order to verify that CIS Safeguards are properly implemented. The hope is that those developing related tools will then build these measures into their tools so that the CIS Controls are measured in a uniform way.
 
 Note that the focus of CAS is on "what to measure" rather than "how to measure".  With the goal of being platform agnostic, a conscious effort was made to avoid addressing the "how to measure" in writing CAS, leaving those platform specific details to specific implementations of these measures.  Tool developers will determine the "hows" that are appropriate for their tools and use cases.
 
@@ -26,7 +26,7 @@ Structure of a Safeguard Measurement
 
 This section describes the standard structure of a Safeguard Measurement in CAS.
 
-Basic CIS Safeguad Information
+Basic CIS Safeguard Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This section includes the Safeguard number, title, description, asset type, security function, and implementation group.  This information matches the information in the CIS Controls v8.0 document.
 
@@ -52,11 +52,11 @@ This section describes the information that should be measured, generally as a r
 
 Metrics
 ^^^^^^^
-This section describes standard metrics that can be calculated from the measures, providing a description of the metricalong with the formula for calculating the metric.  In general, CAS attempts to frame metrics in a positive light - i.e., the ratio of items that are compliant with the Safeguard (as opposed to the ratio of items that are not compliant).  The provided metrics are not meant to be an exhausive list of metrics, rather it is just meant to list some examples of common metrics that are likely to be useful.  The hope is that if appropriate measures have been defined, other metrics can be built from those measures to suit different use cases.
+This section describes standard metrics that can be calculated from the measures, providing a description of the metric along with the formula for calculating the metric.  In general, CAS attempts to frame metrics in a positive light - i.e., the ratio of items that are compliant with the Safeguard (as opposed to the ratio of items that are not compliant).  The provided metrics are not meant to be an exhausive list of metrics, rather it is just meant to list some examples of common metrics that are likely to be useful.  The hope is that if appropriate measures have been defined, other metrics can be built from those measures to suit different use cases.
 
 Procedure Review
 ^^^^^^^^^^^^^^^^
-This is an optional section that may not appear for all Safeguad measurements.  When present, this section describes a manual review of a procedure that helps fulfill the Safeguard.
+This is an optional section that may not appear for all Safeguard measurements.  When present, this section describes a manual review of a procedure that helps fulfill the Safeguard.
 
 
 Versioning
